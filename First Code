@@ -1,1 +1,26 @@
-Print ("Hello World")
+# if Condition 
+a= 70
+if a > 60:
+    print("You are still young")
+# Else Condition statment
+a=50
+if a > 60:
+  print ("You are old")
+else:("You are young")
+#if elif Condtion statments
+b= 50
+if b >100:
+   print ("b is greater than 100")
+elif b<200:
+   print("b is less than 200")
+else:
+   print("b is not greater than 100 and 200")
+# For Loop   
+for x in range (10):
+   print (x)
+#    While loop
+ x = 20
+
+  
+
+

@@ -1,26 +1,40 @@
-# if Condition 
-a= 70
-if a > 60:
-    print("You are still young")
-# Else Condition statment
-a=50
-if a > 60:
-  print ("You are old")
-else:("You are young")
-#if elif Condtion statments
-b= 50
-if b >100:
-   print ("b is greater than 100")
-elif b<200:
-   print("b is less than 200")
+# Question 1
+for i in range(5):
+   print(i)
+   # QUESTION 2
+   x =[10,15,20,25,30,44]
+   for num in x:
+      if num % 2==0:
+         print (f"{num}is even")
+      else:
+         print(f"{num} is odd")
+# Question 3
+a= float(input("4.0:"))
+b= float(input("5.0:"))
+print("1, +")
+print("2, -")
+print("3,*")
+print("4, /")
+operation = input ("1/2/3/4:")
+if operation == '1':
+   result =a+b
+   print("f the result is:{result}")
+elif operation == '2':
+ result =a-b
+ print("f the result is:{result}")
+elif operation == '3':
+   result =a*b
+   print("f the result is:{result}")
+elif operation == '4':
+    result =a/b
+    print("f the result is:{result}")
+if b != 0:
+    result=a/b
+    print("f the result is:{result}")
 else:
-   print("b is not greater than 100 and 200")
-# For Loop   
-for x in range (10):
-   print (x)
-#    While loop
- x = 20
-
-  
+   print("cannot divide by zero")
 
 
+
+
+ 
